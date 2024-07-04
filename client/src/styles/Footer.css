@@ -1,0 +1,14 @@
+.footer{
+    background-color: rgb(216, 215, 215);
+    min-height: 8vh;
+    position: fixed;
+    bottom: 0;
+    min-width:100%;
+    box-shadow: 10px -2px 8px 0px black;
+}
+
+.copyright{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}

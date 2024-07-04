@@ -1,0 +1,35 @@
+.lform{
+    margin-top: 125px;
+    background-color: rgba(128, 128, 128, 0.2); /* Transparent grey background */
+    backdrop-filter: blur(10px); /* Apply a blur effect */
+    border-radius: 10px; /* Rounded corners */
+    width: fit-content; /* Adjust width as needed */
+    position: relative; /* Center the container horizontally */
+    left: 220px;
+}
+
+@media screen and (max-width: 800px){
+    .lform{
+        position: static;
+        margin: 0 auto;
+        width: 90vw;
+    }
+}
+
+.container{
+    justify-content: center;
+
+}
+
+.detail{
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.loginbg{
+    background-image: url('/bg-login.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}

@@ -1,0 +1,53 @@
+.background{
+    background-image: url('/bg-register.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+input{
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid rgb(225, 224, 224);
+    height: 35px;
+    padding: 5px;
+}
+
+@media  screen and (max-width:430px) {
+    input{
+        width: 80vw;
+    }
+}
+
+.r_form{
+    background-color: rgba(128, 128, 128, 0.2); /* Transparent grey background */
+    backdrop-filter: blur(10px); /* Apply a blur effect */
+    border-radius: 10px; /* Rounded corners */
+    width: fit-content; /* Adjust width as needed */
+    position: relative; /* Center the container horizontally */
+    left: 200px;
+}
+
+@media  screen and (max-width:810px) {
+    .r_form{
+        position: static;
+        margin: 0 auto;
+        width: 90vw;
+    }
+}
